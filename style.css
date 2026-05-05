@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Tahoma, sans-serif;
+  background: #eef2ff;
+}
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px 15px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.454);
+  background-color: white;
+  height: 200px;
+}
+.container h1 {
+  margin-bottom: 30px;
+}
+.heade-quiz{
+  display: flex;
+  gap: 280px;
+  align-items: center;
+}
+button {
+  margin-top: 20px;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #1d4ed8;
+  color: #fff;
+  cursor: pointer;
+}
+#meta {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.meta-box p {
+  margin: 5px 0;
+  color: #333;
+}
+#error-message {
+  color: red;
+  display: none;
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+.card p {
+  margin-bottom: 10px;
+}
+.card div:not(:first-of-type) {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 90%;
+  margin: 10px;
+}
+.card {
+  height: auto;
+}
+.card button{
+   margin-top: 20px;
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #1d4ed8;
+  color: #fff;
+  cursor: pointer;
+}
+.selected {
+  background-color: #1d4ed8;
+}
